@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--hier een link naar de stylesheet, style.css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--hier een link naar script.js -->
+    <script src="js/script.js" defer></script>
+    <!-- waarom gebruiken we hier het attribute defer? Dan geeft die aan als de script is gerund_____ vul je antwoord in op de lijn--->
+</head>
+<body>
+
+    <div>
+        <button onclick="getName('Jurgen!');">klik op de button</button> 
+        <!-- vul eens je eigen naam in waar nu staat: vul je naam in hier, echt doen!, wat gebeurd er dan? ik krijjg een melding met mijn naam als ik op dat button druk.__ vul je antwoord in op de lijn -->
+    </div>
+
+    <div>
+        <p>Klik een paar keer op het plaatje hieronder</p>
+        <img id="hide" onclick="hideMe();" src="images/item-1.png">
+        <!-- Welke functie wordt hierboven aangeroepen? als er word geklikt verdwijnt de foto en komt er een andere tevoorschiin.
+        <img id="show" onclick="show();" src="images/item-2.png">
+        <!-- Welke functie wordt hierboven aangeroepen? als je op de foto drukt verdwijnt die en komt er een andere tevoorschiin.
+    </div>
+
+    <div>
+        <p class="som">als ik op de button hieronder klik wat is hier dan de tekst?</p>
+        <!-- wat wordt de content van de p hierboven als ik op de button hieronder klik? 8
+        <button onclick="rekenen(5);">Bereken, klik op mij!</button>
+        <!-- Welke functie wordt hierboven aangeroepen? rekenen.
+        <!-- wat gebeurd er als je het getal 5 hierboven in een ander getal verandert, probeer dat eens  (refresh wel even je pagina). het wordt +3
+    </div>
+
+    <div>
+        <p onclick="this.style.color='aqua';">Klik op mij!</p> 
+        <!-- wordt hier een functie aangeroepen? ja
+        <!-- wat gebeurd er met de tekst in het element p? de kleur wordt veranderd als je er op klikt.
+    </div>
+
+    <div>
+        <p onclick="setColor(this, 'orange', '30px');">Klik ook op mij!</p> 
+        <!-- wordt hier een functie aangeroepen? Ja
+        <!-- wat gebeurd er als ik px vergeet bij 30px (probeer het eens) de lettertype wordt niet groter
+    </div>
+    
+    
+</body>
+</html>
