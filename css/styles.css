@@ -1,6 +1,64 @@
-.css {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-color: green;
+body{
+    background-color: #cccccccc;
+}
+
+.wrapper{
+    background-color: white;    	
+    margin:0 auto;
+    max-width: 1795px;
+    padding:0 40px;
+}
+
+header{
+    height:90px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'karla', sans-serif;
+    font-style:normal;
+    color:#4e4b4b;
+    line-height:1.4;
+}
+
+h2{
+    font-size:40px;
+    line-height:1.2;
+}
+
+h3{
+    font-size:16px;
+    line-height:1.4;
+}
+
+h4{
+    font-size:16px;
+    color:#919291;
+    line-height:1.4;
+}
+
+button{
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+    color:white;
+    background-color:#ca404f;
+    line-height:42px;
+}
+
+.logo{
+
+
+}   
+
+nav.main-menu{
+
+
+}
+
+nav.socials{
+
+
 }
