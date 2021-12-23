@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="functions.js">defer</script>
+    <title>Opdracht 12</title>
 </head>
 <body>
     <div>
-    <h1 class="Naam">Wat is jou Naam ?</h1>
-    <button onclick="document.querySelector('.Naam').innerHTML = 'Jurgen Louvris';">Klik op me</button>
+        <p id="Paragraaf">Paragraaf</p>
+        <button onclick="document.getElementById('Paragraaf').innerHTML = 'Jurgen'">Paragraaf veranderen</button>
+    </div>
     
-    <h2 class="Gaat">Hoe Gaat het met je?</h2>
-    <button onclick="document.querySelector('.Gaat').innerHTML = 'Gaat lekker';">Klik op me</button>
-
-    <P id="dag">Jou ogen zijn blauw</P>
-    <button onclick="document.getElementById('dag').innerHTML = 'Nee die zijn bruin';">Klik op me</button>
-
-    <p id="wow">Dat eten heeft een lekkere smaak</p>
-    <button onclick="document.getElementById('wow').innerHTML = 'Thx';">Klik op me</button>
-
-    <h1>Reset Button</h1>
-    <button onclick="myButton()">Reset</button>
-    <script>
-      function myButton() {
-          location.reload();
-      }
-    </script>
+    <div>
+        <h1 id="Header">Header 1</h1>
+        <button onclick="document.getElementById('Header').style.color = 'orange'">Kleur veranderen</button>
+    </div>
+    <div>
+        <h2 class="Header2">Header 2</h2>
+        <button onclick="document.querySelector('.Header2').style.color = 'orange'">Kleur veranderen</button>
+    </div>
+    <div>
+        <h5 class="Hearder5">Header 5</h5>
+        <button onclick="document.querySelector('.Hearder5').style.color = 'orange'">Kleur veranderen</button>
+    </div>
+    <div>
+        <button onclick="document.body.style.backgroundColor = 'black';">Achtergrond veranderen</button>
     </div>
 </body>
-
 </html>
