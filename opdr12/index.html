@@ -5,27 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opdracht 12</title>
+    </head>
+    <body>
+    <div></div>
+    <h1 id="Hoi wat is mijn naam?">Hallo wat is mijn naam?</h1>
+    <button onclick="document.getElementById('Hoi wat is mijn naam?').innerHTML= 'Mijn naam is Jurgen'">Druk op deze knop om de tekst te veranderen</button>
+
+
+    
+    <h2 id="Tekst2">Hoe oud ben ik?</h2>
+    <button onclick="document.getElementById('Tekst2').innerHTML= 'Ik ben 17 jaar oud'">Druk op deze knop om de tekst te veranderen</button>
+
+
+    <h3 class="Tekst3">Wanneer ben ik jarig?</h3>
+    <button onclick="document.querySelector('.Tekst3').innerHTML= 'Ik ben jarig op 19 Juni'">Druk op deze knop om de tekst te veranderen</button>
+
+
+    <p class="P1">Hoelang ben ik?</p>
+    <button onclick="document.querySelector('.P1').innerHTML= 'Ik ben 168 cm'">Druk op deze knop om de tekst te veranderen</button>
+
+    <button onclick="document.querySelector('body').innerHTML= 'Alles is loes'">Druk op deze knop om alles weg te halen</button>
+</div>
 </head>
 <body>
-    <div>
-        <p id="Paragraaf">Paragraaf</p>
-        <button onclick="document.getElementById('Paragraaf').innerHTML = 'Jurgen'">Paragraaf veranderen</button>
-    </div>
     
-    <div>
-        <h1 id="Header">Header 1</h1>
-        <button onclick="document.getElementById('Header').style.color = 'orange'">Kleur veranderen</button>
-    </div>
-    <div>
-        <h2 class="Header2">Header 2</h2>
-        <button onclick="document.querySelector('.Header2').style.color = 'orange'">Kleur veranderen</button>
-    </div>
-    <div>
-        <h5 class="Hearder5">Header 5</h5>
-        <button onclick="document.querySelector('.Hearder5').style.color = 'orange'">Kleur veranderen</button>
-    </div>
-    <div>
-        <button onclick="document.body.style.backgroundColor = 'black';">Achtergrond veranderen</button>
-    </div>
 </body>
 </html>
